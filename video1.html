@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <button onclick="lightoff()">light off</button>
+    <img  id="myimage"src="bulb off.jfif" alt="">
+    <button onclick="lighton()">light on</button>
+    <script>
+        function lighton(){
+            document.getElementById("myimage").src="bulb on.jfif";
+        }
+        function lightoff(){
+            document.getElementById("myimage").src="bulb off.jfif";
+        }
+        
+    </script>
+    
+</body>
+</html>
